@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension",
-  "description": "Gatsby Starter - Dimension by HTML5 UP",
+  "name": "parklnsouth",
+  "description": "ParkLnSouth Website",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Jason Stinson",
   "dependencies": {
     "gatsby": "^1.9.235",
     "gatsby-link": "^1.6.39",
@@ -18,7 +18,7 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.4"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-dimension",
+  "homepage": "http://www.parklnsouth.com/",
   "keywords": [
     "gatsby"
   ],
@@ -26,7 +26,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-dimension.git"
+    "url": "https://github.com/jsfeb26/parklnsouth.git"
   },
   "scripts": {
     "dev": "gatsby develop",
