@@ -20,15 +20,15 @@ class Template extends React.Component {
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
   }
 
-  componentDidMount () {
+  componentDidMount() {
     this.timeoutId = setTimeout(() => {
-        this.setState({loading: ''});
+      this.setState({ loading: '' });
     }, 100);
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     if (this.timeoutId) {
-        clearTimeout(this.timeoutId);
+      clearTimeout(this.timeoutId);
     }
   }
 
@@ -112,8 +112,10 @@ class Template extends React.Component {
     return (
       <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
         <Helmet>
-            <title>{siteTitle}</title>
-            <meta name="description" content={siteDescription} />
+          <title>{siteTitle}</title>
+          <meta name="description" content={siteDescription} />
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         </Helmet>
 
         {content}
